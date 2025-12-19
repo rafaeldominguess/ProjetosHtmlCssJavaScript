@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logotipo {
+    border-radius: 100%;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 15px 80px 5px rgb(242, 0, 250);
+}
+
+.logotipo:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/1491344667/pt/vetorial/blue-and-pink-abstract-blurred-cloudy-background.jpg?s=612x612&w=0&k=20&c=_TD2NOvFO1u7pTXzL5OJL9MjRhChFRajPt7-uN4mFmw=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px 130px;
+    border: 2px solid rgb(240, 169, 218);
+    box-shadow: 10px 15px 31px 5px rgba(241, 175, 207, 0.438);
+    background-color: rgba(236, 225, 225, 0.151);
+    backdrop-filter: blur(20%);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+}
+
+.infos {
+    margin-bottom: 20px;
+    width: 230px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background: transparent;
+    outline: none;
+    margin-bottom: 0cm;
+    color: #ffffff;
+}
+
+.infos::placeholder {
+    padding-left: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.logo {
+    width: 20px;
+
+}
+
+#email {
+    background: url('https://img.icons8.com/?size=100&id=12580&format=png&color=ffffff') no-repeat 8px center;
+    background-size: 20px 20px;
+    padding-left: 35px;
+}
+
+
+#password {
+    background: url('https://img.icons8.com/?size=100&id=ZiVQbNuQh5g4&format=png&color=ffffff') no-repeat 8px center;
+    background-size: 20px 20px;
+    padding-left: 35px;
+}
+
+#link {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    gap: 10px;
+
+}
+
+#link a {
+    color: #ffffff;
+
+}
+
+#link a:hover {
+    color: #f827f8;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+
+}
+
+#button {
+    margin-top: 10px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(90deg, rgb(121, 55, 113) 0%, rgb(148, 94, 143) 35%, rgb(211, 97, 177) 100%);
+    color: #ffffff;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#button:hover {
+    background: linear-gradient(90deg, rgb(148, 94, 143) 0%, rgb(211, 97, 177) 35%, rgb(121, 55, 113) 100%);
+    box-shadow: 5px 5px 50px 5px rgba(255, 215, 234, 0.438);
+    transition: all 0.3s ease;
+}
+
+#button:active {
+    box-shadow: inset 5px 5px 50px 5px rgba(255, 215, 234, 0.438);
+    transition: all 0.3s ease;
+}
+
+#button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+#checkbox {
+    cursor: pointer;
+    accent-color: #ffffff;
+}
